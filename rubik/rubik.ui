@@ -1,0 +1,44 @@
+<ui version="4.0" >
+ <class>rubikClass</class>
+ <widget class="QMainWindow" name="rubikClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>596</width>
+    <height>608</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>rubik</string>
+  </property>
+  <widget class="QWidget" name="centralWidget" >
+   <layout class="QGridLayout" >
+    <property name="margin" >
+     <number>9</number>
+    </property>
+    <property name="spacing" >
+     <number>6</number>
+    </property>
+    <item row="1" column="0" >
+     <widget class="QPushButton" name="pushButton" >
+      <property name="text" >
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" >
+     <widget class="QGroupBox" name="groupBox" >
+      <property name="title" >
+       <string>GroupBox</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar" />
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>
