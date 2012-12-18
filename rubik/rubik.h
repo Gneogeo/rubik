@@ -2,6 +2,7 @@
 #define RUBIK_H
 
 #include <QtGui/QMainWindow>
+#include <QGLWidget>
 #include "ui_rubik.h"
 
 

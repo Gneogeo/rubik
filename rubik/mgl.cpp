@@ -3,8 +3,10 @@
 #include <QTime>
 
 #include "mgl.h"
-#include <gl/GL.h>
-#include <gl/GLU.h>
+#include <GL/gl.h>
+#include <GL/glu.h>
+//#include <gl/GL.h>
+//#include <gl/GLU.h>
 
 float R=0.2,S=0.16;
 float dist=7;

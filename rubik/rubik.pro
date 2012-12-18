@@ -6,6 +6,7 @@
 
 QT       += core gui opengl
 
+LIBS	+= -lGLU
 TARGET = rubik
 TEMPLATE = app
 
